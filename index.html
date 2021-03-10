@@ -586,7 +586,8 @@ Or you can:
 
 &lt;&lt;set $hintread = $hint.random()&gt;&gt;
 &lt;i&gt;&lt;&lt;print $hintread&gt;&gt;&lt;/i&gt;
-
+\
+&lt;&lt;nobr&gt;&gt;
 &lt;&lt;set $endingmode = 0&gt;&gt;
 
 &lt;&lt;if ($boughtbuttplug eq 1) and ($buttplugscript eq 0)&gt;&gt;
@@ -790,7 +791,8 @@ Or you can:
 &lt;&lt;set $ach12script = 1&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="3" name="StoryCaption" tags="" position="30,0" size="100,100">v0.4.1
+&lt;&lt;/nobr&gt;&gt;
+</tw-passagedata><tw-passagedata pid="3" name="StoryCaption" tags="" position="30,0" size="100,100">v0.4.2
 By Lobsterman9999
 
 &lt;&lt;if $endingmode eq 0&gt;&gt;\
@@ -807,8 +809,8 @@ It&#39;s &lt;&lt;print $day&gt;&gt; &lt;&lt;print $time&gt;&gt; &lt;&lt;/if&gt;&
 &lt;&lt;if $chest lte 3&gt;&gt;&lt;&lt;else&gt;&gt;&lt;b&gt;Bra&lt;/b&gt;: &lt;&lt;if $bra eq &quot;nude&quot;&gt;&gt; nothing &lt;&lt;else&gt;&gt; $bra &lt;&lt;/if&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $hasbuttplug eq 0&gt;&gt;&lt;&lt;else&gt;&gt;&lt;b&gt;Toy&lt;/b&gt;: &lt;&lt;if $toy eq &quot;nude&quot;&gt;&gt; nothing &lt;&lt;else&gt;&gt; $toy &lt;&lt;/if&gt;&gt;&lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $chastityquest eq 0&gt;&gt; &lt;&lt;elseif $chastity eq 0&gt;&gt;You are not in chastity.&lt;&lt;else&gt;&gt;&lt;span class=&quot;purple&quot;&gt;Your penis is locked in a chastity cage.&lt;/span&gt;
-&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $chastityquest eq 0&gt;&gt; &lt;&lt;elseif $chastity eq 0&gt;&gt;You are not in chastity.&lt;&lt;else&gt;&gt;&lt;span class=&quot;purple&quot;&gt;Your penis is locked in a chastity cage.&lt;/span&gt;&lt;&lt;/if&gt;&gt;
+
 You have &lt;b&gt;$money&lt;/b&gt; dollars.
 
 &lt;&lt;if $mobquest1 gte 1&gt;&gt; You owe the mob &lt;b&gt;$mobdebt&lt;/b&gt; dollars on Monday Evening. 
@@ -825,58 +827,13 @@ You have &lt;b&gt;$money&lt;/b&gt; dollars.
 
 </tw-passagedata><tw-passagedata pid="4" name="Notes" tags="" position="51,1178" size="100,100">https://www.rapidtables.com/web/css/css-color.html
 
-Katiequest1 - ask Katie for a raise. 
-
-Katiequest2 - work as a waitress for the first time. +1 fem
-
-Katiequest3 - if you want to work as a waitress again, wear panties. Lets you try to steal panties from Susan. Putting on panties for the first time (special) 
-
-Katiequest 4 - Work as a waitress in panties. 2 fem
-
-Katiequest 6 - after working as a waitress 4 times in panties, Katie asks you to shave if you want to keep doing this. Shaving req. hetero is 9 or lower.
-
-Katiequest 7 - after working as a waitress 3 times shaved, Katie asks you to put on a female outfit and take a picture for her. Requires het 8.
-
-Katiequest 8 - after working as a waitress 3 times shaved post fem outfit, Katie asks you to paint your nails, wear makeup, and wear a buttplug to keep working. All requires het 7.
-After painting your nails and doing make-up, you hit fem 4. You throw out your male underwear.
-
-Susanstatus0 - no dates with Susan
-
-Susanstatus1 - have been on a date with Susan
-
-Susanstatus2 - have been on a date with Susan where you failed to get her to cum.
-
-Susanstatus 3 - you have been on a date with Susan where you failed to get hard.
-
-Toddquest 1 - default. Just go to the gym and have your first session. Then it&#39;s done.
-
-Toddquest 2 - Go to the gym and agree to wear a woman&#39;s workout outfit. -1 hetero +1 homo
-
-Toddquest 3 - When you go to the gym and wear a woman&#39;s workout outfit while shaved, Todd gets touchy. -1 hetero +1 homo
-
-Buy buttplug before fem 4 - you chicken out
-
-Chastity quest 1 - you&#39;ve got your new cage
-Chastity quest 2 - you&#39;ve spoken to Katie at school
-Chastity quest 3 - you&#39;ve slept at home after speaking to Katie. You decide to speak to Ms. Domina
-Chastity quest 4 - Ms. Domina tells you to buy a dildo and bring it class.
-Chastity quest 5 - You use the dildo
-Chastity quest 6 - Katie explains the quest ahead of you. Opens up lip surgery.
-Chastity quest 7 - go for the red bracelet
-Chastity quest 8 - succeed at bracelet
-Chastity quest 9 - locksmith
-Chastity quest 10 - return key
-Chastity quest 11 - done!!!
-Chastity quest 12 - removed + add new variables
-
 jackslut 1 - romantic affair
 jackslut 2 - forced
 Using katiequest9 going forwards - current = 2
 
-New notepad - new quests
 
-Expanded Olivia corruption
-Expanded hooking up Olivia with Cade
+Expanded Olivia corruption - v0.5
+Expanded hooking up Olivia with Cade - v0.5
 
 More Ashley / hospital content - v0.5
 
@@ -886,7 +843,7 @@ Amber - v0.5
 
 Susan disloyal - getting a QOS tattoo - v0.5
 
-Fashion show at the store - Epiphany - v0.5
+More Lexi. Fashion show at the store - Epiphany - v0.5
 
 Gym - Beach date - v0.5
 
@@ -1327,7 +1284,7 @@ Your &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;Femininity&lt;/b&gt;&lt;/span&g
 &lt;img src=&quot;Images/Body/chest5.jpg&quot; width=200 /&gt; \
 &lt;&lt;elseif $chest eq 6&gt;&gt; Your breasts are large, bouncy, and full. They have pleasing sloping shape and natural appearance. You&#39;ve been blessed by nature with large and lovely boobs!
 &lt;img src=&quot;Images/Body/chest6.jpg&quot; width=200 /&gt; \
-&lt;&lt;elseif $chest eq 7&gt;&gt; Your breasts are large, round, and protude sharply from your chest. Made of silicone yet still sensitive to the touch, your big fake tits turn heads whenever you go.
+&lt;&lt;elseif $chest eq 7&gt;&gt; Your breasts are large, round, and protude sharply from your chest. Made of silicone yet still sensitive to the touch, your big fake tits turn heads wherever you go.
 &lt;img src=&quot;Images/Body/chest7.jpg&quot; width=200 /&gt; \
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $piercingnipple eq 1&gt;&gt;\
@@ -3757,7 +3714,7 @@ Thanks so much for playing my game. I hope you enjoyed it and that you find it&#
 
 My aim with this game is to express my love for quality adult text adventures by (1) keeping the writing fresh and brief, (2) avoiding unecessary grind, and (3) keeping the images and gifs hot and plentiful. I hope you liked going through the story as much as I liked writing it.
 
-In this version (v0.4.1), there are ten endings to find:
+In this version (v0.4.2), there are ten endings to find:
 1. The Contract Killer
 2. The Government Agent
 3. The Wandering Author
@@ -3771,7 +3728,7 @@ In this version (v0.4.1), there are ten endings to find:
 
 Want to talk about &lt;b&gt;The Good Son&lt;/b&gt;? [[Check out the Discord Server here.|https://discord.gg/dbZVd9h]]
 
-I plan to develop this game in my spare time until it&#39;s complete. I couldn&#39;t have done it without my generous patrons who support this side hustle and passion of mine. &lt;i&gt;You guys and gals are the best!!!&lt;/i&gt; Want to support me, too? [[Check out my Patreon page here.|https://www.patreon.com/Lobsterman9999]]
+I plan to develop this game in my spare time until it&#39;s complete. I couldn&#39;t have done it without my generous patrons who support this side hustle and passion of mine. &lt;i&gt;You guys and gals are awesome!!!&lt;/i&gt; Want to support me, too? [[Check out my Patreon page here.|https://www.patreon.com/Lobsterman9999]]
 
 &lt;span class=&quot;becky&quot;&gt;&lt;b&gt;Soulmate Patreon Supporters:&lt;/b&gt;&lt;/span&gt;
 Fatherhoosie
@@ -4734,7 +4691,7 @@ Between the two wild sensations, it isn&#39;t long before you cum. &lt;span clas
 
 You can head to the closing through the link below, or you can keep playing through the second link.
 
-&lt;i&gt;Please note, if you choose to keep playing, the main plot will no longer progress. Also, any save on this screen or after it potentially be incompatible for future releases.&lt;/i&gt;
+&lt;i&gt;Please note, if you choose to keep playing, the main plot will no longer progress. Also, any save on this screen or after it will be potentially incompatible for future releases.&lt;/i&gt;
 
 [[Closing]] 
 [[Keep playing-&gt;Your Bedroom]] </tw-passagedata><tw-passagedata pid="178" name="Blowjob Porn" tags="" position="454,477" size="100,100">You load up some blowjob porn. It&#39;s so hot to watch these girls gag on big, meaty cocks. In fact, your mouth begins to water...
@@ -6142,7 +6099,7 @@ You blink, stunned. &lt;i&gt;A 20 percent increase in my grade!? Holy shit!&lt;/
 She frowns. &lt;span class=&quot;teacher&quot;&gt;&lt;b&gt;&quot;Your voice needs work. So do your manners. Take your seat, miss. Time for class.&quot;&lt;/b&gt;&lt;/span&gt;
 
 &lt;span class=&quot;teacher&quot;&gt;&lt;b&gt;Ms. Domina&lt;/b&gt;&lt;/span&gt; decides to make today&#39;s lecture about the importance of transwomen in the new world order. Afterwards, she makes the class watch a short video over and over again to get the message  across. By the end of it, you&#39;re as aroused as you are confused.
-&lt;video loop autoplay src=&quot;Images/University/makeupclass.mp4&quot;&gt;&lt;/video&gt;
+&lt;video loop autoplay src=&quot;Images/University/makeupclass.webm&quot;&gt;&lt;/video&gt;
 
 Feeling especially &lt;span class=&quot;pink&quot;&gt;girly&lt;/span&gt;, you wonder where to go next.
 
@@ -7726,7 +7683,7 @@ So be it. This is your life.
 
 &lt;b&gt;&lt;i&gt;Ending #5 Achieved! You are the Mysterious Singer!&lt;/i&gt;&lt;/b&gt;
 
-[[Closing]]</tw-passagedata><tw-passagedata pid="332" name="Susan Date Het6 cuck" tags="" position="2535,1394" size="100,100">&lt;&lt;if not hasVisited(&quot;Susan Date Het6 cuck 2&quot;)&gt;&gt;&lt;b&gt;&quot;Hey babe,&quot;&lt;/b&gt; you say, letting &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susan&lt;/b&gt;&lt;/span&gt; in. She looks wildly sexy in her dark, sultry outfit. 
+[[Closing]]</tw-passagedata><tw-passagedata pid="332" name="Susan Date Het6 cuck" tags="" position="2535,1392.3333333333333" size="100,100">&lt;&lt;if not hasVisited(&quot;Susan Date Het6 cuck 2&quot;)&gt;&gt;&lt;b&gt;&quot;Hey babe,&quot;&lt;/b&gt; you say, letting &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susan&lt;/b&gt;&lt;/span&gt; in. She looks wildly sexy in her dark, sultry outfit. 
 &lt;img src=&quot;Images/Susan/susan14.jpg&quot; width=350 /&gt;
 
 &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;I had &lt;i&gt;such&lt;/i&gt; a fun week,&quot; Susan&lt;/b&gt;&lt;/span&gt; says, walking in. She&#39;s holding a USB drive. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;I learned so much in my Social Justice class... and after it, too.&lt;/b&gt;&lt;/span&gt;
@@ -7775,7 +7732,7 @@ At your nod, she spreads her legs. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;
 
 &lt;b&gt;&quot;I, er...&quot;&lt;/b&gt; You glance at her panties, easy to see between her spread legs. &lt;b&gt;&quot;I thought-&quot;&lt;/b&gt;
 
-&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;That we&#39;d fuck? Ew.&quot; Susan&lt;/b&gt;&lt;/span&gt; wrinkles her nose at you. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;My pussy is for black dick only now, babe. You will &lt;i&gt;neve&lt;/i&gt; touch me with that little cocklet again, okay?&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;That we&#39;d fuck? Ew.&quot; Susan&lt;/b&gt;&lt;/span&gt; wrinkles her nose at you. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;My pussy is for black dick only now, babe. You will &lt;i&gt;never&lt;/i&gt; touch me with that little cocklet again, okay?&quot;&lt;/b&gt;&lt;/span&gt;
 
 Your heart sinks, but you feel yourself nodding your head. 
 
@@ -7788,7 +7745,7 @@ As you drop to your knees, &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susan&lt
 
 You crawl towards her. &lt;b&gt;&quot;Yes...&quot;&lt;/b&gt;
 
-&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;It&#39;s only for black dick, but sissy tongue are &lt;i&gt;always&lt;/i&gt; allowed,&quot;&lt;/b&gt;&lt;/span&gt; she purrs. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;It&#39;s been a long week. Make me feel good.&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;It&#39;s only for black dick, but sissy tongues are &lt;i&gt;always&lt;/i&gt; allowed,&quot;&lt;/b&gt;&lt;/span&gt; she purrs. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;It&#39;s been a long week. Make me feel good.&quot;&lt;/b&gt;&lt;/span&gt;
 
 [[Do as your girlfriend commands-&gt;Susan Date Het6 cuck][$p = 2]]
 
@@ -7840,7 +7797,7 @@ To that, you&#39;re not sure how to respond. As much as you love servicing your 
 Just before she leaves, she rests a hand on the back of your neck and draws you close.
 &lt;img src=&quot;Images/Susan/susankiss5.gif&quot; width=450 /&gt;
 
-&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;That was for her great you were, tonight.&quot;&lt;/b&gt;&lt;/span&gt; She pauses at the threshold to your apartment. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;By the way, Olivier &lt;i&gt;loved&lt;/i&gt; the message I recorded of you. He called you &#39;a model for the future of white men.&#39; Isn&#39;t that great?&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;That was for how great you were, tonight.&quot;&lt;/b&gt;&lt;/span&gt; She pauses at the threshold to your apartment. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;By the way, Olivier &lt;i&gt;loved&lt;/i&gt; the message I recorded of you. He called you &#39;a model for the future of white men.&#39; Isn&#39;t that great?&quot;&lt;/b&gt;&lt;/span&gt;
 
 At you tepid nod, &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susan&lt;/b&gt;&lt;/span&gt; skips off down the hallway and is soon out of sight.
 
@@ -9994,7 +9951,7 @@ Both of you get off at once. Your asshole seizes with pleasure and you nearly st
 
 Suddenly nervous about what he&#39;ll think about you showing up in a &lt;span class=&quot;pink&quot;&gt;different&lt;/span&gt; costume, you come to a stop ten paces from him, shuffling your feet.
 
-&lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Hey,&quot;&lt;/b&gt;&lt;/span&gt; he says, giving you a friendly smile. &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Nice outfit. Are you, uh... going be at the event tonight?&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Hey,&quot;&lt;/b&gt;&lt;/span&gt; he says, giving you a friendly smile. &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Nice outfit. Are you, uh... going to be at the event tonight?&quot;&lt;/b&gt;&lt;/span&gt;
 
 &lt;i&gt;Holy shit - he doesn&#39;t recognize me!&lt;/i&gt;
 
@@ -10536,7 +10493,7 @@ The doctor eyes you with curiosity. &lt;span class=&quot;olivier&quot;&gt;&lt;b&
 
 &lt;&lt;if $newbreasts eq &quot;Katie&quot;&gt;&gt;&lt;span class=&quot;katie&quot;&gt;&lt;b&gt;&quot;Woah,&quot;&lt;/b&gt;&lt;/span&gt; says &lt;span class=&quot;katie&quot;&gt;&lt;b&gt;Katie&lt;/b&gt;&lt;/span&gt;. &lt;span class=&quot;katie&quot;&gt;&lt;b&gt;&quot;So are you like, trans now?&quot;&lt;/b&gt;&lt;/span&gt;&lt;&lt;elseif $newbreasts eq &quot;Lexi&quot;&gt;&gt;&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;This. Is. Amazing!&quot;&lt;/b&gt;&lt;/span&gt; says &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt;. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;I&#39;m so proud of you! So, can you just admit you&#39;re trans, now?&quot;&lt;/b&gt;&lt;/span&gt; &lt;&lt;else&gt;&gt;&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susan&lt;/b&gt;&lt;/span&gt; claps her hands over her mouth. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;So you&#39;ve been a trans woman this whole time?&quot;&lt;/b&gt;&lt;/span&gt; &lt;&lt;/if&gt;&gt;
 
-&lt;b&gt;&quot;No!&quot;&lt;/b&gt; you say, still processing your decision. &lt;b&gt;&quot;I don&#39;t know. I&#39;m just not a guy, anymore. I mean, that&#39;s obvious enough. Maybe I&#39;ll be a girl someday - or maybe just something in between. I&#39;m just...&quot;&lt;/b&gt; You shrug. &lt;b&gt;&quot;I&#39;m just letting nature runs its course.&quot;&lt;/b&gt;
+&lt;b&gt;&quot;No!&quot;&lt;/b&gt; you say, still processing your decision. &lt;b&gt;&quot;I don&#39;t know. I&#39;m just not a guy, anymore. I mean, that&#39;s obvious enough. Maybe I&#39;ll be a girl someday - or maybe just something in between. I&#39;m just...&quot;&lt;/b&gt; You shrug. &lt;b&gt;&quot;I&#39;m just letting nature run its course.&quot;&lt;/b&gt;
 
 Just then, there&#39;s a knock on the door. Before anyone can open it, a nurse marches into the room. She radiates confidence and command - not to mention beauty, too.
 &lt;img src=&quot;Images/Hospital/nurse1.jpg&quot; width=300 /&gt;
@@ -11097,7 +11054,7 @@ Her stare becomes intense.
 &lt;&lt;set $time = &quot;Night&quot;&gt;&gt;
 &lt;&lt;set $milkcount += 1&gt;&gt;
 &lt;&lt;set $money += 100&gt;&gt;
-</tw-passagedata><tw-passagedata pid="460" name="Milking Appointment 2" tags="" position="5888,835" size="100,100">Like always, &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;Ashley&lt;/b&gt;&lt;/span&gt; finger fucks you hard and fast, focusing all her attention on your prostate. Now that you&#39;re more used to the sensation, you quick lose yourself to the intense and submissive pleasure of it all. Like a dairy cow, you&#39;ve got cream that the world needs, and your attentive nurse is going to squeeze every drop of it out of you. 
+</tw-passagedata><tw-passagedata pid="460" name="Milking Appointment 2" tags="" position="5888,835" size="100,100">Like always, &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;Ashley&lt;/b&gt;&lt;/span&gt; finger fucks you hard and fast, focusing all her attention on your prostate. Now that you&#39;re more used to the sensation, you quickly lose yourself to the intense and submissive pleasure of it all. Like a dairy cow, you&#39;ve got cream that the world needs, and your attentive nurse is going to squeeze every drop of it out of you. 
 
 You even feel yourself push against her fingers, making her every thrust hit your prostate even harder. It isn&#39;t long before the pleasure becomes too much, and you hit your peak.
 
@@ -11909,13 +11866,13 @@ So be it. This is your life.
 
 &lt;b&gt;&lt;i&gt;Ending #7 Achieved! You are the Career Woman!&lt;/i&gt;&lt;/b&gt;
 
-[[Closing]]</tw-passagedata><tw-passagedata pid="494" name="Susan Date Het5 cuck" tags="" position="2294,1995" size="100,100">&lt;b&gt;&quot;Hey babe,&quot;&lt;/b&gt; you say, letting &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susan&lt;/b&gt;&lt;/span&gt; in. She&#39;s looking cute as hell - and it strikes you as odd how such an evil, sexy bitch could look so innocent. 
+[[Closing]]</tw-passagedata><tw-passagedata pid="494" name="Susan Date Het5 cuck" tags="" position="2294,1995" size="100,100">&lt;&lt;if $p eq 0&gt;&gt;&lt;b&gt;&quot;Hey babe,&quot;&lt;/b&gt; you say, letting &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susan&lt;/b&gt;&lt;/span&gt; in. She&#39;s looking cute as hell - and it strikes you as odd how such an evil, sexy bitch could look so innocent. 
 &lt;img src=&quot;Images/Susan/susan16.jpg&quot; width=400 /&gt; 
 
 &lt;&lt;if $wearingfemoverwear eq 0&gt;&gt;&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;My little beta boi, wearing clothing for men? No, that won&#39;t do anymore. Get changed into something girly.&quot;&lt;/b&gt;&lt;/span&gt;
 
 Feeling embarassed but excited for whatever she has planned, you quickly change. &lt;&lt;set $overwear = &quot;black top and red skirt&quot;&gt;&gt;&lt;&lt;set $wearingfemoverwear = 1&gt;&gt;
-&lt;&lt;/if&gt;&gt;
+&lt;&lt;/if&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;if not hasVisited(&quot;Susan Date Het 5 cuck 2&quot;)&gt;&gt;&lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;Now,&quot; Susan&lt;/b&gt;&lt;/span&gt; says, walking behind you with confident steps. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;For your task today, your little boypussy needs to be nice and plugged. Lift that skirt, drop your panties, and give me a look.&quot;&lt;/b&gt;&lt;/span&gt;
 
 &lt;b&gt;&quot;Why do I need to-&quot;&lt;/b&gt;
@@ -11950,7 +11907,7 @@ But for better or worse, you find the idea incredibly hot.
 
 &lt;b&gt;&quot;I get to choose the men that you fool around with.&quot;&lt;/b&gt;
 
-She hops on the bad and gestures for you sit beside her. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;I have the final say, but you&#39;ll be my sissy advisor.&quot;&lt;/b&gt;&lt;/span&gt;
+She hops on the bed and gestures for you sit beside her. &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;&quot;I have the final say, but you&#39;ll be my sissy advisor.&quot;&lt;/b&gt;&lt;/span&gt;
 
 [[Give it a shot.-&gt;Susan Date Het5 cuck][$p = 1]]
 
@@ -12354,7 +12311,7 @@ Midway through your shift, a patron snaps your bracelet. You glance over at the 
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;Oh? That&#39;s so sweet.&quot;&lt;/b&gt;&lt;/span&gt; you say, pretending to be intrigued instead of kind of disgusted. 
 
-When the man finally gets his cock out, the tart, cheese-like small of smegma fills the room. That is not a clean dick.
+When the man finally gets his cock out, the tart, cheese-like smell of smegma fills the room. That is not a clean dick.
 &lt;img src=&quot;Images/Cauldron/handjobfatdick.gif&quot; width=300 /&gt;
 
 &lt;span class=&quot;blue&quot;&gt;&lt;b&gt;&quot;What&#39;s your name, sweetcheeks?&quot;&lt;/b&gt;&lt;/span&gt;
@@ -13025,7 +12982,7 @@ Sweat gathers on your forehead - you can&#39;t forget, you&#39;re dealing with h
 &lt;&lt;if $fem lte 5&gt;&gt;But it&#39;s impossible. Your cock feels engorged and sensitive, but it just pulses against the chastity cage. You can barely touch it at all, let alone get off like this!
 &lt;img src=&quot;Images/Computer/chastityhorny.gif&quot; width=300 /&gt; 
 
-Your penis drips, drips, drips delicious precum, and your balls feels heavy with seed. But there&#39;s nothing you can do. After licking up a fair deal of precum, you shut off your computer and drop on your bed feeling horny and irritable.
+Your penis drips, drips, drips delicious precum, and your balls feel heavy with seed. But there&#39;s nothing you can do. After licking up a fair deal of precum, you shut off your computer and drop on your bed feeling horny and irritable.
 
 [[I need to find a way out of this thing.-&gt;Your Bedroom]]
 &lt;&lt;else&gt;&gt;Your boy pussy clenches and gapes with each of your deep breaths. Your prostate, lodged about four inches into your anus, needs a good pounding. Licking your lips, you reach for your dildo.
@@ -13868,7 +13825,7 @@ Licking your lips, you leave the stall and wonder where to go next.
 &lt;&lt;set $sissyclasschoice = $sissyclassset.pluck()&gt;&gt;\
 \
 &lt;&lt;if $sissyclasschoice eq 1&gt;&gt; \
-From the start of the class, &lt;span class=&quot;becky&quot;&gt;&lt;b&gt;Becky&lt;/b&gt;&lt;/span&gt; won&#39;t stop complaining about how bothersome being stuck in chastity is for her. Eventually, &lt;span class=&quot;teacher&quot;&gt;&lt;b&gt;Ms. Domina&lt;/b&gt;&lt;/span&gt; has enough, and unlocks her chastity cage - only to strap into a strange &#39;milking&#39; device to teach her some manners. You and &lt;span class=&quot;rachel&quot;&gt;&lt;b&gt;Rachel&lt;/b&gt;&lt;/span&gt; watch as &lt;span class=&quot;teacher&quot;&gt;&lt;b&gt;Ms. Domina&lt;/b&gt;&lt;/span&gt; milks orgasm after orgasm from &lt;span class=&quot;becky&quot;&gt;&lt;b&gt;Becky&lt;/b&gt;&lt;/span&gt;, drilling her boypussy with three fingers the entire time. 
+From the start of the class, &lt;span class=&quot;becky&quot;&gt;&lt;b&gt;Becky&lt;/b&gt;&lt;/span&gt; won&#39;t stop complaining about how bothersome being stuck in chastity is for her. Eventually, &lt;span class=&quot;teacher&quot;&gt;&lt;b&gt;Ms. Domina&lt;/b&gt;&lt;/span&gt; has enough, and unlocks her chastity cage - only to strap her into a strange &#39;milking&#39; device to teach her some manners. You and &lt;span class=&quot;rachel&quot;&gt;&lt;b&gt;Rachel&lt;/b&gt;&lt;/span&gt; watch as &lt;span class=&quot;teacher&quot;&gt;&lt;b&gt;Ms. Domina&lt;/b&gt;&lt;/span&gt; milks orgasm after orgasm from &lt;span class=&quot;becky&quot;&gt;&lt;b&gt;Becky&lt;/b&gt;&lt;/span&gt;, drilling her boypussy with three fingers the entire time. 
 &lt;video loop autoplay src=&quot;Images/University/sissyclass4.mp4&quot;&gt;&lt;/video&gt;
 \
 
@@ -14913,7 +14870,7 @@ After a long, passionate kiss, &lt;span class=&quot;susan&quot;&gt;&lt;b&gt;Susa
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;Yeah,&quot;&lt;/b&gt;&lt;/span&gt; you say, not sure why he&#39;s acting weird. &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;She was at my place last Friday and-&quot;&lt;/b&gt;&lt;/span&gt;
 
-&lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Woah,&quot; Todd&lt;/b&gt;&lt;/span&gt; steps back. &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Woah, woah, woah. You two are still together?&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;&lt;if $todddate gte 5&gt;&gt;&lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Oh yeah,&quot; Todd&lt;/b&gt;&lt;/span&gt; says, sounding almost disappointed. His grin fades. &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;You two are still an item. Totally forgot.&quot;&lt;/b&gt;&lt;/span&gt;&lt;&lt;else&gt;&gt;&lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Woah,&quot; Todd&lt;/b&gt;&lt;/span&gt; steps back. &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Woah, woah, woah. You two are still together?&quot;&lt;/b&gt;&lt;/span&gt;
 
 Quiet follows - well, except for the usual hustle and bustle of a gym on a &lt;&lt;if $day eq &quot;Sunday&quot;&gt;&gt;Sunday morning&lt;&lt;else&gt;&gt;Wednsday evening&lt;&lt;/if&gt;&gt;.
 
@@ -14924,7 +14881,7 @@ Quiet follows - well, except for the usual hustle and bustle of a gym on a &lt;&
 
 &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;You&#39;re not $playername, you&#39;re $femname - you&#39;re a chick. I thought she&#39;d leave you or something.&quot;&lt;/b&gt;&lt;/span&gt;
 
-You narrow your gaze. &lt;span class=&quot;pink&quot;&gt;&lt;i&gt;Thought... or hoped?&lt;/i&gt;&lt;/span&gt;
+You narrow your gaze. &lt;span class=&quot;pink&quot;&gt;&lt;i&gt;Thought... or hoped?&lt;/i&gt;&lt;/span&gt;&lt;&lt;/if&gt;&gt;
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;Well we&#39;re together, and I was hoping you could help me with something.&quot;&lt;/b&gt;&lt;/span&gt;
 
@@ -15114,7 +15071,7 @@ He smiles with hunger. &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Not yet
 &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;Now I&#39;ve got to be rough, $femname.&quot; Todd&lt;/b&gt;&lt;/span&gt; explains, stroking your ass lovingly. &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;&quot;I&#39;ve got to fuck the reflex out of you.&quot;&lt;/b&gt; Todd&lt;/span&gt;
 
 And the next moment, he does exactly that.
-&lt;video loop autoplay muted src=&quot;Images/Gym/blowjobvideo.mp4&quot;&gt;&lt;/video&gt;
+&lt;video loop autoplay muted src=&quot;Images/Gym/blowjobvideo.webm&quot;&gt;&lt;/video&gt;
 
 His strong hands holding you in place, &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;Todd&lt;/b&gt;&lt;/span&gt; proceeds to fuck your throat like his life depended on it. The room is filled with the lewd noises of his cock hitting your gag reflex over and over again, while you slurp up your saliva and find a submissive pleasure in getting abused like a toy. Not to mention, your ass and clitty are right against &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;Todd&#39;s&lt;/b&gt;&lt;/span&gt; face, and he rewards your good behavior by clutching your balls now and then, and &lt;&lt;if $toy neq &quot;nude&quot;&gt;&gt;playing with your buttplug&lt;&lt;else&gt;&gt;jamming his thumb up your boypussy&lt;&lt;/if&gt;&gt;.
 
@@ -18081,7 +18038,7 @@ You&#39;ve already got your top off before he&#39;s finished speaking. &lt;span 
 He strips down to his socks in a flash, and gasps in pleasure as you spit on your hands and give his dick a nice, firm grip.
 
 The room is quiet for a few moments, as you both watch your hard, deliberate strokes on his well-sized cock. 
-&lt;video loop autoplay muted src=&quot;Images/Cauldron/handjob5.mp4&quot;&gt;&lt;/video&gt;
+&lt;video loop autoplay muted src=&quot;Images/Cauldron/handjob5.webm&quot;&gt;&lt;/video&gt;
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;So you like paying girls to show you their tits while you get off?&quot;&lt;/b&gt;&lt;/span&gt;
 
@@ -18092,7 +18049,7 @@ All he can do is nod, his mind seemingly turned to mush by your handjob and the 
 &lt;span class=&quot;pink&quot;&gt;&lt;i&gt;I would have you do it for free...&lt;/i&gt;&lt;/span&gt;
 
 In answer, you lie back, and let his straddle your hips, his balls resting on your stomach. Then you give his cock hard, fast strokes, rapidly forcing him to climax.
-&lt;video loop autoplay muted width=400 src=&quot;Images/Cauldron/handjob5cum.mp4&quot;&gt;&lt;/video&gt;
+&lt;video loop autoplay muted width=400 src=&quot;Images/Cauldron/handjob5cum.webm&quot;&gt;&lt;/video&gt;
 
 You keep stroking even after his spasms end, working to get every drop of semen out of his dick. That strange, sticky warmth of a stranger&#39;s cum cooling on your skin is nearly intoxicating. Distantly, you wonder what it would be like to take a bath of hot, steamy cum. Running it through your hair... pushing globs of it up your ass... and slurping up as much as you can, while you soak...
 
@@ -19048,7 +19005,7 @@ Soon &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;Nazarov&lt;/b&gt;&lt;/span&gt; 
 
 Luckily, you&#39;ve trained for this and you&#39;re able to take his cock with ease. It slides past your tongue and down your throat, then back up again. You make sure to massage it with your tongue and lips. You&#39;re not just a prone sexy toy for &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;Nazarov&lt;/b&gt;&lt;/span&gt; to fuck - you&#39;re an expert cocksucker who deserves a red bracelet.
 
-&lt;&lt;if $lips eq 3&gt;&gt;&lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;Your lips...&quot; Nazarov&lt;/b&gt;&lt;/span&gt; says, his voice strained. He&#39;s clearly close to his orgasm. &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;They&#39;re... &lt;i&gt;perfect.&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;&lt;else&gt;&gt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;Good...&quot; Nazarov&lt;/b&gt;&lt;/span&gt; says, his voice strained. He&#39;s clearly close to his orgasm. &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;Now, take my cum.&lt;/b&gt;&lt;/span&gt;&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $lips eq 3&gt;&gt;&lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;Your lips...&quot; Nazarov&lt;/b&gt;&lt;/span&gt; says, his voice strained. He&#39;s clearly close to his orgasm. &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;They&#39;re... &lt;i&gt;perfect.&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;&lt;else&gt;&gt;&lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;Good...&quot; Nazarov&lt;/b&gt;&lt;/span&gt; says, his voice strained. He&#39;s clearly close to his orgasm. &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;Now, take my cum.&lt;/b&gt;&lt;/span&gt;&lt;&lt;/if&gt;&gt;
 
 He blows his load the next moment, filling your mouth with semen. You swallow as quickly as you can, but some of his seed still spurts past your lips and dribbles onto your cheeks and chest. Ignoring it, you keep sucking on &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;Nazarov&#39;s&lt;/b&gt;&lt;/span&gt; cock, forcing ever drop of cum out of his balls and into your waiting mouth.
 &lt;img src=&quot;Images/Cauldron/nazarovblowjob9.gif&quot; width=350 /&gt;
@@ -21424,7 +21381,7 @@ She pauses at the tattoo station.
 
 &lt;b&gt;Option 3&lt;/b&gt; - 100 dollars
 &lt;img src=&quot;Images/Tattoo/piercinglip3.jpg&quot; width=350 /&gt;
-&lt;&lt;if $piercinginventory.includes(&quot;piercinglip3&quot;)&gt;&gt;&lt;i&gt;I already have this lip ring!&lt;/i&gt;&lt;&lt;elseif $money lt 100&gt;&gt;&lt;i&gt;I can&#39;t afford this.&lt;/i&gt;&lt;&lt;else&gt;&gt;[[Get this piercing-&gt;Nose Rings Done][$i = 3, $piercingcost = 100]]&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $piercinginventory.includes(&quot;piercinglip3&quot;)&gt;&gt;&lt;i&gt;I already have this lip ring!&lt;/i&gt;&lt;&lt;elseif $money lt 100&gt;&gt;&lt;i&gt;I can&#39;t afford this.&lt;/i&gt;&lt;&lt;else&gt;&gt;[[Get this piercing-&gt;Lip Rings Done][$i = 3, $piercingcost = 100]]&lt;&lt;/if&gt;&gt;
 
 [[Return-&gt;Tapestry]] 
 
@@ -21451,8 +21408,8 @@ She pauses at the tattoo station.
 &lt;&lt;if $piercinginventory.includes(&quot;piercingnipple1&quot;)&gt;&gt;&lt;i&gt;I already have this nipple piercing!&lt;/i&gt;&lt;&lt;elseif $money lt 130&gt;&gt;&lt;i&gt;I can&#39;t afford this.&lt;/i&gt;&lt;&lt;else&gt;&gt;[[Get this piercing-&gt;Nipple Done][$i = 1, $piercingcost = 130]]&lt;&lt;/if&gt;&gt;
 
 &lt;b&gt;Option 2&lt;/b&gt; - 140 dollars
-&lt;img src=&quot;Images/Tattoo/piercingtongue2.jpg&quot; width=350 /&gt;
-&lt;&lt;if $piercinginventory.includes(&quot;piercingtongue2&quot;)&gt;&gt;&lt;i&gt;I already have this nipple piercing!&lt;/i&gt;&lt;&lt;elseif $money lt 140&gt;&gt;&lt;i&gt;I can&#39;t afford this.&lt;/i&gt;&lt;&lt;else&gt;&gt;[[Get this piercing-&gt;Nipple Done][$i = 2, $piercingcost = 140]]&lt;&lt;/if&gt;&gt;
+&lt;img src=&quot;Images/Tattoo/piercingnipple2.jpg&quot; width=350 /&gt;
+&lt;&lt;if $piercinginventory.includes(&quot;piercingnipple2&quot;)&gt;&gt;&lt;i&gt;I already have this nipple piercing!&lt;/i&gt;&lt;&lt;elseif $money lt 140&gt;&gt;&lt;i&gt;I can&#39;t afford this.&lt;/i&gt;&lt;&lt;else&gt;&gt;[[Get this piercing-&gt;Nipple Done][$i = 2, $piercingcost = 140]]&lt;&lt;/if&gt;&gt;
 
 [[Return-&gt;Tapestry]] 
 
@@ -21778,7 +21735,7 @@ With that done, you wonder where to head to next.
 &lt;&lt;set $alreadytapestry = 1&gt;&gt;
 
 &lt;&lt;set $tattoocount -= 1&gt;&gt;
-</tw-passagedata><tw-passagedata pid="824" name="Upper Back Tattoo Done" tags="" position="6997,321" size="100,100">After making your selection, &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;Bella&lt;/b&gt;&lt;/span&gt; gathers her materials and has you get comfortable on the parlour chair. Once the skin is exposed and sterilized, she gets to work.
+</tw-passagedata><tw-passagedata pid="824" name="Upper Back Tattoo Done" tags="" position="6997,317" size="100,100">After making your selection, &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;Bella&lt;/b&gt;&lt;/span&gt; gathers her materials and has you get comfortable on the parlour chair. Once the skin is exposed and sterilized, she gets to work.
 &lt;&lt;set $bellaset = [1, 2, 3]&gt;&gt;\
 \
 &lt;&lt;set $bellachoice = $bellaset.pluck()&gt;&gt;\
@@ -21796,7 +21753,7 @@ With that done, you wonder where to head to next.
 &lt;&lt;/if&gt;&gt;\
 
 You whimper from the pain as the needle pierces your skin. &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;Bella&lt;/b&gt;&lt;/span&gt; works swiftly, and thankfully the tattoo isn&#39;t very large. In only a few minutes (though it feels like a lot longer), you&#39;ve got a lovely tattoo on your running along your upper back!
-&lt;&lt;if $i eq 1&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback1.jpg&quot; width=400 /&gt;&lt;&lt;elseif $i eq 2&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback1.jpg&quot; width=400 /&gt;&lt;&lt;elseif $i eq 3&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback1.jpg&quot; width=400 /&gt;&lt;&lt;elseif $i eq 4&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback1.jpg&quot; width=400 /&gt;&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $i eq 1&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback1.jpg&quot; width=400 /&gt;&lt;&lt;elseif $i eq 2&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback2.jpg&quot; width=400 /&gt;&lt;&lt;elseif $i eq 3&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback3.jpg&quot; width=400 /&gt;&lt;&lt;elseif $i eq 4&gt;&gt;&lt;img src=&quot;Images/Tattoo/tattooupperback4.jpg&quot; width=400 /&gt;&lt;&lt;/if&gt;&gt;
 
 &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;&quot;So... what&#39;d you think?&quot;&lt;/b&gt;&lt;/span&gt;
 
@@ -22619,7 +22576,7 @@ The Cauldron is quiet, tonight. Not too many people, and as a result you can act
 
 Specifically, that night you first dressed up as a waitress, and basically &#39;played&#39; at being a woman.
 
-&lt;i&gt;There&#39;s a word for that, right? &lt;span class=&quot;pink&quot;&gt;Crossdressing&lt;/span&gt;. But I&#39;m a guy, I&#39;m supposed hate that kind of stuff...&lt;/i&gt; 
+&lt;i&gt;There&#39;s a word for that, right? &lt;span class=&quot;pink&quot;&gt;Crossdressing&lt;/span&gt;. But I&#39;m a guy, I&#39;m supposed to hate that kind of stuff...&lt;/i&gt; 
 
 You sigh, morose. &lt;i&gt;Then why didn&#39;t I? Why was it so easy?&lt;/i&gt;
 
@@ -22676,7 +22633,7 @@ He&#39;s probably right. After staggering out of your seat, you make your way ou
 
 Yet on the walk home, the redheaded mystery still lingers in your mind.
 
-&lt;i&gt;Maybe if I spend more time at the Cauldron, I&#39;ll run to her again...&lt;/i&gt; you think, daring to be just a little bit hopeful.&lt;&lt;/if&gt;&gt;
+&lt;i&gt;Maybe if I spend more time at the Cauldron, I&#39;ll run into her again...&lt;/i&gt; you think, daring to be just a little bit hopeful.&lt;&lt;/if&gt;&gt;
 
 [[Go home-&gt;Your Bedroom]] 
 
@@ -23142,7 +23099,7 @@ And yet here you are, sitting down beside her. Clearly you&#39;re at least a lit
 
 &lt;i&gt;Shit - make something up - fast!&lt;/i&gt;
 
-&lt;b&gt;&quot;I was just, er... I was wondering, if I... if there was a way to &lt;i&gt;test&lt;/i&gt; that was a girl... would that be possible?&quot;&lt;/b&gt;
+&lt;b&gt;&quot;I was just, er... I was wondering, if I... if there was a way to &lt;i&gt;test&lt;/i&gt; that I was a girl... would that be possible?&quot;&lt;/b&gt;
 
 She smirks. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Well, a real man would never need or want such a test.&quot;&lt;/b&gt;&lt;/span&gt; She raises a finger before you can protest. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;I know, I know, you&#39;re a real boy. Okay, let&#39;s put it to the test. I know a way.&quot;&lt;/b&gt;&lt;/span&gt; 
 
@@ -23359,11 +23316,11 @@ Soon you have your fingers pressed against &lt;span class=&quot;lexi&quot;&gt;&l
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;Ohhh...&quot;&lt;/b&gt;&lt;/span&gt; you moan, your girly cock instantly responding.
 
-&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Wow...&quot; Katie&lt;/b&gt;&lt;/span&gt; says, releasing your breasts. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;I dont believe it... those are actually breasts. You sure you&#39;re not on estrogen?&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Wow...&quot; Lexi&lt;/b&gt;&lt;/span&gt; says, releasing your breasts. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;I dont believe it... those are actually breasts. You sure you&#39;re not on estrogen?&quot;&lt;/b&gt;&lt;/span&gt;
 
 &lt;b&gt;&quot;I&#39;m sure.&quot;&lt;/b&gt;
 
-She doesn&#39;t look like she believes you.&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;And you&#39;re &lt;i&gt;sure&lt;/i&gt; you&#39;re not transitioning?&quot;&lt;/b&gt;&lt;/span&gt;
+She doesn&#39;t look like she believes you. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;And you&#39;re &lt;i&gt;sure&lt;/i&gt; you&#39;re not transitioning?&quot;&lt;/b&gt;&lt;/span&gt;
 
 &lt;b&gt;&quot;Well... I mean, not on purpose.&quot;&lt;/b&gt;
 
@@ -23565,7 +23522,7 @@ Laughter and a bit of clapping. Almost finished, now. &lt;span class=&quot;pink&
 
 &quot;... then you can go fuck yourself.&quot;&lt;/b&gt;&lt;/span&gt; 
 
-[[The bar is silent.-&gt;Lexi 7 5]]</tw-passagedata><tw-passagedata pid="889" name="Lexi 7 5" tags="" position="4408,4074" size="100,100">After a single, silent moment, the bar gives a good cheer - as if you just finished a toast. One rather attractive man across the bar raises a shot and winks at you before drinking.
+[[The bar is silent.-&gt;Lexi 7 5]]</tw-passagedata><tw-passagedata pid="889" name="Lexi 7 5" tags="" position="4408,4070" size="100,100">After a single, silent moment, the bar gives a good cheer - as if you just finished a toast. One rather attractive man across the bar raises a shot and winks at you before drinking.
 &lt;img src=&quot;Images/Cauldron/lexiphone3.gif&quot; width=400 /&gt;
 
 And then everyone goes back to their conversations. You let out a long-held breath as &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; puts way her phone.
@@ -23585,7 +23542,7 @@ You can&#39;t help but notice that &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;L
 
 Your hand finds hers. &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;So what now?&quot;&lt;/b&gt;&lt;/span&gt;
 
-&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Now we sat goodbye - the bar&#39;s about to close and I&#39;ve got a lot of work tomorrow.&quot;&lt;/b&gt;&lt;/span&gt; She brushes your hair, delicately. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;But let&#39;s meet back here soon. There&#39;s so much for us to do together...&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Now we say goodbye - the bar&#39;s about to close and I&#39;ve got a lot of work tomorrow.&quot;&lt;/b&gt;&lt;/span&gt; She brushes your hair, delicately. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;But let&#39;s meet back here soon. There&#39;s so much for us to do together...&quot;&lt;/b&gt;&lt;/span&gt;
 
 After one last kiss, you part ways.
 
@@ -23767,7 +23724,7 @@ There&#39;s longing in her look. Before your own arousal can take control, you s
 
 The cool night air does wonders to your head.
 
-&lt;span class=&quot;pink&quot;&gt;&lt;i&gt;Lexi&#39;s lovely - and I&#39;m kind of into her plans, or at least the little bit she&#39;s revealed so far,&lt;/i&gt;&lt;/span&gt; you think, as you walk home. &lt;span class=&quot;pink&quot;&gt;&lt;i&gt;But I can tell she&#39;s crazy persuasive, too. Good thing I left when I did... otherwise I feel like I&#39;d be totally caught in her spell.&lt;/i&gt;&lt;/span&gt;
+&lt;span class=&quot;pink&quot;&gt;&lt;i&gt;&lt;b&gt;Lexi&#39;s&lt;/b&gt; lovely - and I&#39;m kind of into her plans, or at least the little bit she&#39;s revealed so far,&lt;/i&gt;&lt;/span&gt; you think, as you walk home. &lt;span class=&quot;pink&quot;&gt;&lt;i&gt;But I can tell she&#39;s crazy persuasive, too. Good thing I left when I did... otherwise I feel like I&#39;d be totally caught in her spell.&lt;/i&gt;&lt;/span&gt;
 
 [[Head home-&gt;Your Bedroom]] 
 \
@@ -23776,7 +23733,7 @@ The cool night air does wonders to your head.
 &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&#39;s&lt;/b&gt;&lt;/span&gt; fingers take hold of your top, and soon your breasts are exposed. You&#39;re quick to do the same to her. Meanwhile, her erection presses eagerly against your hip. 
 &lt;img src=&quot;Images/Cauldron/lexikiss4.jpg&quot; width=450 /&gt;
 
-Lust has taken hold of all your senses. Only vaguely do think about how &lt;i&gt;sexy&lt;/i&gt; it is to make out with a trans woman - so feminine, but with a nice cock waiting for you between her legs.
+Lust has taken hold of all your senses. Only vaguely do you think about how &lt;i&gt;sexy&lt;/i&gt; it is to make out with a trans woman - so feminine, but with a nice cock waiting for you between her legs.
 
 &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Mmm... $femname, I&#39;ve wanted to do this since the day we met...&quot;&lt;/b&gt;&lt;/span&gt; she whispers into your ear. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Now, let&#39;s have some fun...&quot;&lt;/b&gt;&lt;/span&gt;
 
@@ -23813,7 +23770,7 @@ In the aftershock of your shared orgasm, you lie still, spent. &lt;span class=&q
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;I promise, Lexi. I promise I will.&quot;&lt;/b&gt;&lt;/span&gt;
 \
-&lt;&lt;else&gt;&gt;&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; touches your chastity cage, surprised to find the contraption around your cock. You simply wink at her. 
+&lt;&lt;else&gt;&gt;&lt;&lt;if $chastity eq 1&gt;&gt;&lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; touches your chastity cage, surprised to find the contraption around your cock. You simply wink at her.&lt;&lt;else&gt;&gt;Just as &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; reaches under your skirt, you take her wrist and push her away. At her raised brow, you simply wink at her.&lt;&lt;/if&gt;&gt;
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;This evening&#39;s all about you.&quot;&lt;/b&gt;&lt;/span&gt;
 
@@ -23821,7 +23778,7 @@ You gently push &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/s
 
 This close, you catch the scent of her cock. It has the usual musk of a penis, but her scent is also distinctly feminine. It&#39;s as unique as it is intoxicating.
 
-&lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;I didn&#39;t know trans girls could &lt;i&gt;be&lt;/i&gt; this big.&quot;&lt;/b&gt;&lt;/span&gt; you say,  starting to stroke her. 
+&lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;I didn&#39;t know trans girls could &lt;i&gt;be&lt;/i&gt; this big.&quot;&lt;/b&gt;&lt;/span&gt; you say, starting to stroke her. 
 &lt;img src=&quot;Images/Cauldron/lexihandjob4.gif&quot; width=450 /&gt;
 
 &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; smirks. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;I&#39;m happily average. I figured you were a bit slighter in size.&quot;&lt;/b&gt;&lt;/span&gt; She licks her lips. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;I guess we know which one of us is in charge.&quot;&lt;/b&gt;&lt;/span&gt;
@@ -23833,7 +23790,7 @@ It isn&#39;t long before her grips the sides of the couch, bracing for her orgas
 
 Semen spurts out of her cock, some landing on her thighs, some landing on your chest. You keep tugging at her perfect penis, letting more cum dribble out of her, watching in fascination as her balls rhymthically contract and relax.
 
-In the quiet that follows, &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; scoops up a glob of her semen, and sets her finger just above your lips. Somehow knowing exactly what she wants, you obidiently open your mouth. The next moment, the cum drips down past your lips. 
+In the quiet that follows, &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; scoops up a glob of her semen, and sets her finger just above your lips. Somehow knowing exactly what she wants, you obidiently open your mouth. The next moment, the cum drips down onto your tongue. 
 &lt;img src=&quot;Images/Cauldron/lexihandjob6.gif&quot; width=450 /&gt;
 
 It tastes mild, salty, and almost sweet - nearly like your own. Exactly what you&#39;d expect from a feminine penis.
@@ -23845,7 +23802,6 @@ Beneath her. The thought is enough for a drop of precum to drip out of your peni
 &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Promise me, $femname.&quot;&lt;/b&gt;&lt;/span&gt; she says, rubbing her cumsoaked finger against your lips. &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;&quot;Promise me you&#39;ll get the tattoo.&quot;&lt;/b&gt;&lt;/span&gt;
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;I promise, Lexi. I promise I will.&quot;&lt;/b&gt;&lt;/span&gt;
-
 &lt;&lt;/if&gt;&gt;\
 
 Once she&#39;s assured that you will, in fact, get the tattoo, the two of you clean up and get dressed, then leave the Cauldron together. Parting ways with a tender kiss, you&#39;re left to walk home on your own.
@@ -23855,7 +23811,7 @@ The whole walk home, you wonder where you&#39;re going to get a trans flag tatto
 [[Head home-&gt;Your Bedroom]] 
 
 
-</tw-passagedata><tw-passagedata pid="898" name="Tattoo Trans 2" tags="" position="6407,678" size="100,100">&lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;Hey, Bella,&quot;&lt;/b&gt;&lt;/span&gt; you say, approaching the tattoo artist. &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;How&#39;s it-&quot;&lt;/b&gt;&lt;/span&gt;
+</tw-passagedata><tw-passagedata pid="898" name="Tattoo Trans 2" tags="" position="6407,674" size="100,100">&lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;Hey, Bella,&quot;&lt;/b&gt;&lt;/span&gt; you say, approaching the tattoo artist. &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;How&#39;s it-&quot;&lt;/b&gt;&lt;/span&gt;
 
 &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;&quot;Just who I was looking for!&quot; Bella&lt;/b&gt;&lt;/span&gt; replies, pulling over a binder from her desk. &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;&quot;I&#39;ve got something to show you.&quot;&lt;/b&gt;&lt;/span&gt;
 &lt;img src=&quot;Images/Tattoo/bella3.jpg&quot; width=400 /&gt; 
@@ -23876,7 +23832,7 @@ You&#39;re impressed. &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;It&#39;s
 &lt;span class=&quot;pink&quot;&gt;&lt;i&gt;Would it?&lt;/i&gt;&lt;/span&gt; you wonder, as &lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;Bella&lt;/b&gt;&lt;/span&gt; points to the second design.
 &lt;img src=&quot;Images/Tattoo/tattoowrist5.jpg&quot; width=400 /&gt; 
 
-&lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;&quot;So this one&#39;s a bit more subtle. It&#39;s got the pink and blue, but now the flag is a butterfly&#39;s wings. Like, out of the caccoon - bam, here you are, transformed and beautiful.&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;ashley&quot;&gt;&lt;b&gt;&quot;So this one&#39;s a bit more subtle. It&#39;s got the pink and blue, but now the flag is a flower. Like, you took your time to bloom, but now here you are, transformed and beautiful.&quot;&lt;/b&gt;&lt;/span&gt;
 
 You feel tingling in your stomach, looking at the two designs. They&#39;re both great - and you bet &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; will adore either one. &lt;&lt;if $lexisway gte 1&gt;&gt;After things got so sensual in the dressing room, you know that &lt;span class=&quot;lexi&quot;&gt;&lt;b&gt;Lexi&lt;/b&gt;&lt;/span&gt; is expecting you to deliver on your promise. The thought of showing her a trans tattoo is actually a bit arousing.&lt;&lt;/if&gt;&gt;
 
@@ -25220,7 +25176,7 @@ Truthfully, you don&#39;t know how to answer that question. Everything got way t
 To that, &lt;span class=&quot;rachel&quot;&gt;&lt;b&gt;Rachel&lt;/b&gt;&lt;/span&gt; smiles.
 &lt;img src=&quot;Images/University/rachel8.jpg&quot; width=400 /&gt;
 
-&lt;span class=&quot;rachel&quot;&gt;&lt;b&gt;&quot;I just got lucky - I saw you enter the car, and as you drove off I recognized the bumper stickers. That guy&#39;s a fucked up transphobe - he &lt;i&gt;knew&lt;/i&gt; you were trans, by the way. He likes to pretend to be shocked and then beat the shit out of us. He gots off on it.&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;rachel&quot;&gt;&lt;b&gt;&quot;I just got lucky - I saw you enter the car, and as you drove off I recognized the bumper stickers. That guy&#39;s a fucked up transphobe - he &lt;i&gt;knew&lt;/i&gt; you were trans, by the way. He likes to pretend to be shocked and then beat the shit out of us. He gets off on it.&quot;&lt;/b&gt;&lt;/span&gt;
 
 You shudder. &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;That&#39;s... &lt;i&gt;super&lt;/i&gt; fucked up.&quot;&lt;/b&gt;&lt;/span&gt;
 
@@ -25617,7 +25573,7 @@ The clerk is behind his tripod, already naked below the waist.
 &lt;&lt;set $toy = &quot;nude&quot;&gt;&gt;
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="945" name="Whore Solo 2" tags="" position="686,2278" size="100,100">&lt;&lt;if $chastity eq 0&gt;&gt;&lt;span class=&quot;pink&quot;&gt;&lt;i&gt;Okay, let&#39;s do this.&lt;/i&gt;&lt;/span&gt;
 
-You climb onto the bed while keeping your eyes fixed on the camera lens, giving clerk a dark, seductive look. Not breaking eye contact, you lower yourself on all fours and lap at the dildo&#39;s large, bulbous head. It tastes like silicone, and just faintly of sex. You&#39;re not the first whore to use this dildo.
+You climb onto the bed while keeping your eyes fixed on the camera lens, giving the clerk a dark, seductive look. Not breaking eye contact, you lower yourself on all fours and lap at the dildo&#39;s large, bulbous head. It tastes like silicone, and just faintly of sex. You&#39;re not the first whore to use this dildo.
 
 That little bit of knowledge has your heart racing. Few things turn you on as much as feeling like a dirty slut.
 
@@ -25635,14 +25591,14 @@ Then you wink at the clerk, and push it in.
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;&lt;i&gt;Ohhh...&lt;/i&gt;&quot;&lt;/b&gt;&lt;/span&gt; you moan, sliding the thick dildo in and out of your boypussy. 
 &lt;img src=&quot;Images/Home/whoresolo2.gif&quot; width=400 /&gt;
 
-As used to insertions as you are, the dildo is pretty damned girthy. It pushes you to your limit, and you feel yourself losing yourself to lust in little time at all. As you fuck yourself hard and deep, lost in the intense sensations of the silicone cock pushing against your prostate, you see the clerk hit his limit. Still filming you, he grunts, cumming hard onto the motel floor.
+As used to insertions as you are, the dildo is pretty damned girthy. It pushes you to your limit, and you feel yourself losing yourself to lust in little time at all. As you fuck yourself hard and deep, lost in the intense sensations of the silicone cock pushing against your prostate, you see the clerk hit his climax. Still filming you, he grunts, cumming hard onto the motel floor.
 
 That image sends you over the edge. An intense anal orgasm hits you, your clitty shooting out an embarassing load of semen onto the bedding beneath you, while your boypussy spasms in pleasure. Distantly, you can feel your hot saliva drip down your thighs.
 &lt;img src=&quot;Images/Home/whoresolo3.gif&quot; width=400 /&gt;
 \
 &lt;&lt;else&gt;&gt;&lt;span class=&quot;pink&quot;&gt;&lt;i&gt;Okay, let&#39;s do this.&lt;/i&gt;&lt;/span&gt;
 
-You climb onto the bed while keeping your eyes fixed on the camera lens, giving clerk a dark, seductive look. Not breaking eye contact, you lower yourself on all fours and lap at the dildo&#39;s large, bulbous head. It tastes like silicone, and just faintly of sex. You&#39;re not the first whore to use this dildo.
+You climb onto the bed while keeping your eyes fixed on the camera lens, giving the clerk a dark, seductive look. Not breaking eye contact, you lower yourself on all fours and lap at the dildo&#39;s large, bulbous head. It tastes like silicone, and just faintly of sex. You&#39;re not the first whore to use this dildo.
 
 That little bit of knowledge has your heart racing. Few things turn you on as much as feeling like a dirty slut.
 
@@ -25662,7 +25618,7 @@ Then you wink at the clerk, and push the dildo inside.
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;&lt;i&gt;Ohhh...&lt;/i&gt;&quot;&lt;/b&gt;&lt;/span&gt; you moan, sliding the thick dildo in and out of your boypussy. 
 &lt;img src=&quot;Images/Home/whoresolo5.gif&quot; width=400 /&gt;
 
-As used to insertions as you are, the dildo is pretty damned girthy. It pushes you to your limit, and you feel yourself losing yourself to lust in little time at all. As you fuck yourself hard and deep, lost in the intense sensations of the silicone cock pushing against your prostate, you see the clerk hit his limit. Still filming you, he grunts, cumming hard onto the motel floor.
+As used to insertions as you are, the dildo is pretty damned girthy. It pushes you to your limit, and you feel yourself losing yourself to lust in little time at all. As you fuck yourself hard and deep, lost in the intense sensations of the silicone cock pushing against your prostate, you see the clerk hit his climax. Still filming you, he grunts, cumming hard onto the motel floor.
 
 That image sends you over the edge. An intense anal orgasm hits you, your clitty shooting out an embarassing load of semen onto the bedding beneath you, while your boypussy spasms in pleasure. Distantly, you can feel your hot saliva drip down your thighs.
 &lt;img src=&quot;Images/Home/whoresolo6.gif&quot; width=400 /&gt;
@@ -25671,7 +25627,7 @@ That image sends you over the edge. An intense anal orgasm hits you, your clitty
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;Yeah, that was... honestly, a lot of fun.&quot;&lt;/b&gt;&lt;/span&gt;
 
-Once you clean up and get dressed, you head outside to find that &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;Sapphire&lt;/b&gt;&lt;/span&gt; is already parked outside the hotel, waiting for you.
+Once you clean up and get dressed, you head outside to find that &lt;span class=&quot;todd&quot;&gt;&lt;b&gt;Sapphire&lt;/b&gt;&lt;/span&gt; is already parked outside the motel, waiting for you.
 
 [[Get in Sapphire&#39;s car-&gt;Whore Close 2][$overwear = $overwearsave, $underwear = $underwearsave, $bra = $brasave, $toy = $toysave]]
 
@@ -26180,7 +26136,7 @@ You push your breasts together, forming a passage for his cock, and then gently 
 &lt;span class=&quot;blue&quot;&gt;&lt;b&gt;&quot;That&#39;s good...&quot;&lt;/b&gt;&lt;/span&gt; he grunts, as his large, hairy ballstack rubs against your stomach, making you feel small and submissive. &lt;span class=&quot;blue&quot;&gt;&lt;b&gt;&quot;I love sluts with big &lt;&lt;if $chest eq 6&gt;&gt;natural&lt;&lt;else&gt;&gt;fake&lt;&lt;/if&gt;&gt; tits.&quot;&lt;/b&gt;&lt;/span&gt;
 
 It isn&#39;t long before he hits his peak. Pushing hard against your pillowy boobs, he groans as his first hot rope of semen shoots directly onto your neck. You lie there are take it as more and more man-seed coats your breasts and collarbone. 
-&lt;video loop autoplay muted src=&quot;Images/Cauldron/titjob1cum.mp4&quot;&gt;&lt;/video&gt;
+&lt;video loop autoplay muted src=&quot;Images/Cauldron/titjob1cum.webm&quot;&gt;&lt;/video&gt;
 
 When he&#39;s done, he just pulls out a wad of bills from his pocket and throws them onto your chest, covering them in cum. Snickering, your client pulls on his shirt, buckles his pants, and leaves.
 
@@ -27398,7 +27354,7 @@ The world blurs.
 
 &lt;&lt;elseif $p eq 5&gt;&gt;The shift of wordless shapes, the moan of unknown voices. Marbles, falling from above. The taste of honey.
 
-All these figments flash through you, one collapsing on the next. Distantly, you feel something poking, prodding, clutching and prodding at your chest. Only, it&#39;s as if your whole body&#39;s asleep. You can&#39;t move a muscle.
+All these figments flash through you, one collapsing on the next. Distantly, you feel something poking, prodding, clutching and pulling at your chest. Only, it&#39;s as if your whole body&#39;s asleep. You can&#39;t move a muscle.
 
 Then your vision changes, shifting from grey nothingness to a faint image.
 
@@ -27407,7 +27363,7 @@ For a moment, you&#39;re not sure what to make of the moving, gasping bodies, ju
 
 &lt;span class=&quot;pink&quot;&gt;&lt;i&gt;Wait... is that...?&lt;/i&gt;&lt;/span&gt;
 
-It&#39;s one of  the clinic nurses, you think. And the man drilling her ass - that&#39;s &lt;span class=&quot;blue&quot;&gt;&lt;b&gt;Miles&lt;/b&gt;&lt;/span&gt;
+It&#39;s one of  the clinic nurses, you think. And the man drilling her ass - that&#39;s &lt;span class=&quot;blue&quot;&gt;&lt;b&gt;Miles&lt;/b&gt;&lt;/span&gt;!
 
 &lt;span class=&quot;mom&quot;&gt;&lt;b&gt;&quot;Um, Dr. Pentworth,&quot;&lt;/b&gt;&lt;/span&gt; the nurse says, meeting your eye. &lt;span class=&quot;mom&quot;&gt;&lt;b&gt;&quot;She&#39;s awake.&quot;&lt;/b&gt;&lt;/span&gt;
 
@@ -27454,7 +27410,7 @@ You take hold of your new breasts. There&#39;s a &lt;i&gt;stiffness&lt;/i&gt; to
 
 &lt;span class=&quot;pink&quot;&gt;&lt;b&gt;&quot;I don&#39;t know what to say.&quot;&lt;/b&gt;&lt;/span&gt; you mutter, still mesmerized by the mirror, and your brand new set of breasts.
 
-&lt;span class=&quot;blue&quot;&gt;&lt;b&gt;Miles&lt;/b&gt;&lt;/span&gt; gives you an affection pat on the shoulder. &lt;span class=&quot;blue&quot;&gt;&lt;b&gt;&quot;I&#39;ll take that as a compliment. You can stay in this room as long as you&#39;d like. Maybe give a friend a call, or send a photo. We&#39;ll lock up when you leave.&quot;&lt;/b&gt;&lt;/span&gt;
+&lt;span class=&quot;blue&quot;&gt;&lt;b&gt;Miles&lt;/b&gt;&lt;/span&gt; gives you an affectionate pat on the shoulder. &lt;span class=&quot;blue&quot;&gt;&lt;b&gt;&quot;I&#39;ll take that as a compliment. You can stay in this room as long as you&#39;d like. Maybe give a friend a call, or send a photo. We&#39;ll lock up when you leave.&quot;&lt;/b&gt;&lt;/span&gt;
 
 He leaves you, then, and the next moment you grab your phone. You&#39;ve &lt;i&gt;got&lt;/i&gt; to send a selfie to someone... but who?
 
@@ -32321,7 +32277,7 @@ Then he gestures to the door. &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;&quot;
 Without a word, he glances down below his desk.
 
 Understanding what he wants, you lower yourself to the ground, and crawl on your hands and knees towards him. He already has his cock sticking out of his pants, and it rapidly stiffens as you near.
-&lt;video loop autoplay muted src=&quot;Images/Cauldron/nazarovblowjob1.mp4&quot;&gt;&lt;/video&gt;
+&lt;video loop autoplay muted src=&quot;Images/Cauldron/nazarovblowjob1.webm&quot;&gt;&lt;/video&gt;
 
 You get to work sucking on his cock, your nose filled with its strong, musky scent. Its rich taste on your tongue. For his part, &lt;span class=&quot;boss&quot;&gt;&lt;b&gt;Nazarov&lt;/b&gt;&lt;/span&gt; simply opens up his notebook and gets back to work. You&#39;re not his primary focus - your just a willing mouth, sucking his dick on a $day night.
 
